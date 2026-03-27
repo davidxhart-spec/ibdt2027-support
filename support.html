@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — IB DT 2027 Teacher Dashboard</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', sans-serif;
+    background: #f4f3ee; color: #1c1c1e; line-height: 1.7;
+    padding: 40px 20px 80px;
+  }
+  .container { max-width: 680px; margin: 0 auto; }
+  .header {
+    text-align: center; padding: 32px 0 28px;
+    border-bottom: 1px solid rgba(0,0,0,0.08); margin-bottom: 32px;
+  }
+  .header h1 { font-size: 22px; font-weight: 700; letter-spacing: -0.3px; }
+  .header .subtitle { font-size: 14px; color: #6e6e73; margin-top: 4px; }
+  .card {
+    background: #fff; border-radius: 14px; padding: 24px 28px;
+    margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+  }
+  .card h2 {
+    font-size: 15px; font-weight: 700; margin-bottom: 10px;
+    color: #1c1c1e; letter-spacing: -0.2px;
+  }
+  .card h3 {
+    font-size: 13px; font-weight: 700; margin: 14px 0 6px;
+    color: #1c1c1e;
+  }
+  .card h3:first-of-type { margin-top: 0; }
+  .card p { font-size: 13px; color: #3a3a3c; margin-bottom: 10px; }
+  .card p:last-child { margin-bottom: 0; }
+  .card ul { font-size: 13px; color: #3a3a3c; padding-left: 20px; margin-bottom: 10px; }
+  .card ul li { margin-bottom: 6px; }
+  .card code {
+    background: rgba(0,0,0,0.04); padding: 2px 6px; border-radius: 4px;
+    font-size: 12px; font-family: 'SF Mono', Menlo, monospace;
+  }
+  .contact-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #007AFF; color: #fff; border: none; border-radius: 10px;
+    padding: 12px 24px; font-size: 14px; font-weight: 600;
+    font-family: inherit; cursor: pointer; text-decoration: none;
+    transition: opacity 0.15s;
+  }
+  .contact-btn:hover { opacity: 0.85; }
+  .faq-q {
+    font-size: 13px; font-weight: 700; color: #1c1c1e;
+    margin-bottom: 4px; margin-top: 14px;
+  }
+  .faq-q:first-child { margin-top: 0; }
+  .faq-a { font-size: 13px; color: #3a3a3c; margin-bottom: 0; }
+  .divider {
+    height: 1px; background: rgba(0,0,0,0.06); margin: 16px 0;
+  }
+  .version-badge {
+    display: inline-block; background: rgba(0,122,255,0.1); color: #007AFF;
+    font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px;
+    margin-bottom: 12px;
+  }
+  .footer {
+    text-align: center; padding-top: 32px; border-top: 1px solid rgba(0,0,0,0.06);
+    margin-top: 16px; font-size: 11px; color: #aeaeb2;
+  }
+  .footer a { color: #aeaeb2; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1c1c1e; color: #f5f5f7; }
+    .header { border-bottom-color: rgba(255,255,255,0.08); }
+    .header .subtitle { color: #98989d; }
+    .card { background: #2c2c2e; box-shadow: none; }
+    .card h2, .card h3, .faq-q { color: #f5f5f7; }
+    .card p, .card ul, .faq-a { color: #d1d1d6; }
+    .card code { background: rgba(255,255,255,0.06); color: #d1d1d6; }
+    .divider { background: rgba(255,255,255,0.06); }
+    .footer { border-top-color: rgba(255,255,255,0.06); color: #636366; }
+    .footer a { color: #636366; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="header">
+    <h1>Support</h1>
+    <div class="subtitle">IB DT 2027 — Teacher Dashboard</div>
+  </div>
+
+  <!-- Contact -->
+  <div class="card" style="text-align:center">
+    <h2>Get in Touch</h2>
+    <p>Have a question, found a bug, or want to suggest a feature? Send an email and I'll get back to you as soon as possible.</p>
+    <div style="margin-top:14px">
+      <!-- Replace with your actual email -->
+      <a href="mailto:dudemanllb1@gmail.com?subject=IB%20DT%202027%20Support" class="contact-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Email Support
+      </a>
+    </div>
+  </div>
+
+  <!-- Quick Start -->
+  <div class="card">
+    <span class="version-badge">v1.0</span>
+    <h2>Quick Start Guide</h2>
+
+    <h3>Getting Started</h3>
+    <ul>
+      <li>Launch the app — it opens in landscape on your iPad</li>
+      <li>Tap <strong>Add Student</strong> in the left sidebar to create your first student</li>
+      <li>Set each student's level (SL or HL) on the Roster tab</li>
+      <li>Navigate between tabs using the icons at the top of the screen</li>
+    </ul>
+
+    <h3>Saving Your Data</h3>
+    <ul>
+      <li>Data saves automatically to your device after every change</li>
+      <li>Use <strong>Export</strong> in the sidebar footer to download a JSON backup</li>
+      <li>Use <strong>Push to iCloud</strong> to sync across devices</li>
+    </ul>
+
+    <h3>Using on Desktop</h3>
+    <ul>
+      <li>Open <code>dashboard.html</code> in Chrome or Safari on your computer</li>
+      <li>Use <strong>Open Folder</strong> to save to your iCloud Drive folder</li>
+      <li>Both iPad and desktop will read from the same sync file</li>
+    </ul>
+  </div>
+
+  <!-- FAQ -->
+  <div class="card">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-q">Where is my data stored?</div>
+    <p class="faq-a">All data is stored locally on your iPad in the app's browser storage. Nothing is sent to any external server. When you use iCloud sync, data is stored in your personal iCloud Drive account.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">How do I sync between iPad and my computer?</div>
+    <p class="faq-a">On iPad, tap <strong>Push to iCloud</strong> in the sidebar footer. On your Mac, open the dashboard HTML file in Chrome, click <strong>Open Folder</strong>, and select the iCloud Drive folder for this app. Both devices will read and write to the same JSON file.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">Can I use this with multiple classes?</div>
+    <p class="faq-a">Yes. Use the class selector at the top of the sidebar to switch between classes. Each class has its own roster, assessments, and data. You can add as many classes as you need.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">How do I back up my data?</div>
+    <p class="faq-a">Tap <strong>Export</strong> in the sidebar footer. This downloads a JSON file containing all your classes, students, scores, and settings. To restore, use <strong>Import</strong> and select the JSON file. We recommend backing up regularly.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">What happens if I delete the app?</div>
+    <p class="faq-a">Deleting the app will remove all locally stored data. Make sure to export a backup or push to iCloud before uninstalling. If you have an iCloud backup, you can restore by reinstalling and pulling from iCloud.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">Can students see my data?</div>
+    <p class="faq-a">No. This app is for teacher use only. There is no student-facing view, no shared access, and no online component. Data only exists on your device and in your personal iCloud account.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">Is this app affiliated with the IB?</div>
+    <p class="faq-a">No. This is an independent tool built by a teacher. It is not produced, endorsed, or affiliated with the International Baccalaureate Organization. Teachers should always refer to the official IB Design Technology Guide as the authoritative source.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">I found a bug / something isn't working</div>
+    <p class="faq-a">Please email me with a description of the issue, which tab you were on, and what you expected to happen. Screenshots are very helpful. I'll investigate and release a fix as quickly as possible.</p>
+
+    <div class="divider"></div>
+
+    <div class="faq-q">Can I request a new feature?</div>
+    <p class="faq-a">Absolutely. Send an email with your suggestion. This app is actively developed and teacher feedback directly shapes what gets built next.</p>
+  </div>
+
+  <!-- Tabs Overview -->
+  <div class="card">
+    <h2>Tab Guide</h2>
+    <ul>
+      <li><strong>Roster</strong> — Student details, photos, SEN records, IB numbers</li>
+      <li><strong>Grades</strong> — Paper 1, Paper 2, and IA scores with IB 1-7 grade prediction</li>
+      <li><strong>Assessments</strong> — Custom tests and quizzes with exam prediction engine</li>
+      <li><strong>IA</strong> — Per-criterion IA marking with student folder browser</li>
+      <li><strong>IA Comments</strong> — Moderator-facing commentary for each IA criterion</li>
+      <li><strong>Topics</strong> — Topic rubrics with 4-band performance descriptors</li>
+      <li><strong>Reports</strong> — Comment bank with smart name/gender/level replacement</li>
+      <li><strong>Letter</strong> — Full report letter generator with templates</li>
+      <li><strong>EE</strong> — Extended Essay tracker for DT EE students</li>
+      <li><strong>Curriculum</strong> — 2027 syllabus checklist with teaching progress</li>
+      <li><strong>Guide</strong> — IA writing guide, study notes, and question bank</li>
+    </ul>
+  </div>
+
+  <!-- System Requirements -->
+  <div class="card">
+    <h2>System Requirements</h2>
+    <ul>
+      <li><strong>iPad app:</strong> iPad running iOS 16.0 or later</li>
+      <li><strong>Desktop version:</strong> Chrome, Safari, or Edge (latest version recommended)</li>
+      <li><strong>iCloud sync:</strong> Requires an iCloud account with iCloud Drive enabled</li>
+      <li><strong>Storage:</strong> Minimal — the app is under 2 MB. Student data typically uses 50-500 KB.</li>
+    </ul>
+  </div>
+
+  <div class="footer">
+    &copy; 2026 David Hart. All rights reserved.<br>
+    <a href="privacy-policy.html">Privacy Policy</a>
+  </div>
+
+</div>
+</body>
+</html>
